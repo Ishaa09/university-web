@@ -1,2 +1,22 @@
-I have implemented one private worlds largest university website. In this website i have implemented courses we offer,
-students review, social media platforms etc.
+*************************************************************************************************************************
+Project Title : University Website Design
+
+Develop by : Isha Saswade
+
+Code info : .html, .css, .js
+
+**************************************************************************************************************************
+
+Details :
+I have created a website on worlds biggest university using html,css and js.
+
+Webpage consists of following areas :
+* Header file
+* Course Section
+* Campus Section
+* Facility Section
+* Testimonials Section
+* Call To Action Section
+* Footer Section 
+
+***************************************************************************************************************************
