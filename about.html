@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+ <section class="sub-header">
+       
+       <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="course.html">COURSE</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>About Us</h1>
+ </section>
+
+ <!-- ------ about us content ----  -->
+ <section class="about-us">
+     <div class="row">
+         <div class="about-col">
+             <h1>We are the world's biggest university</h1>
+             <p>An important idea in the definition of a university is the notion of academic freedom. 
+                 The first documentary evidence of this comes from early in the life of the University of Bologna, which adopted 
+                 an academic charter, the Constitutio Habita,[11] in 1158 or 1155, which guaranteed the right of a traveling
+                  scholar to unhindered passage in the interests of education. Today this is claimed as the origin of 
+                  "academic freedom". This is now widely recognised internationally - on 18 September 1988, 430 university rectors signed 
+                  the Magna Charta Universitatum, marking the 900th anniversary of Bologna's foundation. The number of universities signing 
+                  the Magna Charta Universitatum continues to grow, drawing from all parts of the world.</p>
+                  <a href="" class="hero-btn">EXPLORE NOW</a>
+         </div>
+         <div class="about-col">
+             <img src="images/about.jpg">
+         </div>
+     </div>
+ </section>
+
+
+
+
+
+ <!-- Footer Section  -->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Hear this out loud
+        A university is an institution of higher education and research which awards academic<br> degrees in several academic disciplines
+        The word university is derived from<br> the Latin universitas magistrorum et scholarium, <br> which roughly means 
+        "community of teachers and scholars".</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Isha</p>
+</section>
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+     var navLinks = document.getElementById("navLinks");
+    function showMenu() { 
+        navLinks.style.right = "0";
+    } 
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    } 
+</script>
+
+</body>
+</html>
